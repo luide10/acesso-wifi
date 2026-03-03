@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuração de Rede - VITORIA</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #f4f4f9; color: #333; margin: 0; }
+        .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; max-width: 90%; }
+        button { background-color: #007bff; color: white; border: none; padding: 15px 30px; border-radius: 8px; font-size: 18px; cursor: pointer; margin-top: 20px; }
+        button:hover { background-color: #0056b3; }
+        .info { font-size: 14px; color: #666; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Conectar à Rede VITORIA</h2>
+        <p>Clique no botão abaixo para configurar o Wi-Fi automaticamente.</p>
+        
+        <a href="WIFI:S: VITORIA;T:WPA;P:vih102030;;">
+            <button onclick="registrarClique()">CONECTAR AGORA</button>
+        </a>
+
+        <div class="info">
+            <p><strong>SSID:</strong>  VITORIA</p>
+            <p><strong>Senha:</strong> vih102030</p>
+        </div>
+    </div>
+
+    <script>
+        function registrarClique() {
+            // Aqui você pode inserir seu código do Google Analytics depois
+            console.log("Usuário tentou conectar em: " + new Date().toLocaleString());
+        }
+    </script>
+
+</body>
+</html>
